@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
+  float number = 2.3456;
   printf("\nGo\n");
-  int x,y,z;
-  x = 2;
-  y = 3;
-  z = 4;
-  int sum = x + y + z;
-  printf("Yig'indi %i ga teng",sum);
+  // This is how we set decimal precision
+  printf("%.2f two digits", number);
   return 0;
 }
