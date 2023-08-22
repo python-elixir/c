@@ -2,48 +2,25 @@
 #include <stdbool.h>
 
 int main() {
+
+  int myNumbers[] = {1,2,3,4,5,6,7}; 
+
+  printf("%i\n",myNumbers[3]);
+
+  myNumbers[5] = 9;
+  printf("%d",myNumbers[5]);
   
-  // int i = 10;
-  
-  // do
-  // {
-  //   printf("%d\n",i);
-  //   i--;
-  // } while (i > 7);
+int matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };
 
-// int i;
-
-// for (i = 0; i < 5; i++) {
-//   printf("%d\n", i);
-// }
-
-// int i, j;
-
-// // Outer loop
-// for (i = 1; i <= 2; ++i) {
-//   printf("\n");  // Executes 2 times
-
-//   // Inner loop
-//   for (j = 1; j <= 3; ++j) {
-//     printf(" Inner: %d\t", j);  // Executes 6 times (2 * 3)
-//   }
-// }  
-
-int i;
-
-// for (i = 0; i < 10; i++) {
-//   if (i == 4) {
-//     break;
-//   }
-//   printf("%d\n", i);
-// }
-
-
-for (i = 0; i < 10; i++) {
-  if (i == 4) {
-    continue;
+int i, j;
+for (i = 0; i < 2; i++) {
+  printf("\n");
+  for (j = 0; j < 3; j++) {
+    printf("%d\t", matrix[i][j]);
   }
-  printf("%d\n", i);
 }
+
+char mychar = 'w';
+printf("%c",mychar);
   return 0;
 }
