@@ -2,45 +2,48 @@
 #include <stdbool.h>
 
 int main() {
-  // const float pi = 3.14;
-
-  // float mynumber = 5;
-
-  // if (mynumber > pi){
-  //   printf("My number is greater than PI\n");
-  // } else{
-  //   printf("My number is less than PI\n");
-  // }
-
-  // (30 > 39) ? printf("True"):printf("False"); //short hand if 
-
-  int day = 5;
-
-  switch (day)
-  {
-  case 1:
-    printf("Monday");
-    break;
-  case 2:
-    printf("Tuesday");
-    break;
-  case 3:
-    printf("Wednesday");
-    break;
-  case 4:
-    printf("Thursday");
-    break;
-  case 5:
-    printf("Friday");
-    break;
-  case 6:
-    printf("Saturday");
-    break;
-  default:
-    printf("Sunday");
-    break;
-  }
-
   
+  // int i = 10;
+  
+  // do
+  // {
+  //   printf("%d\n",i);
+  //   i--;
+  // } while (i > 7);
+
+// int i;
+
+// for (i = 0; i < 5; i++) {
+//   printf("%d\n", i);
+// }
+
+// int i, j;
+
+// // Outer loop
+// for (i = 1; i <= 2; ++i) {
+//   printf("\n");  // Executes 2 times
+
+//   // Inner loop
+//   for (j = 1; j <= 3; ++j) {
+//     printf(" Inner: %d\t", j);  // Executes 6 times (2 * 3)
+//   }
+// }  
+
+int i;
+
+// for (i = 0; i < 10; i++) {
+//   if (i == 4) {
+//     break;
+//   }
+//   printf("%d\n", i);
+// }
+
+
+for (i = 0; i < 10; i++) {
+  if (i == 4) {
+    continue;
+  }
+  printf("%d\n", i);
+}
   return 0;
 }
