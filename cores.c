@@ -11,7 +11,10 @@ int i;
 for (i = 0; i < 4; i++) {
   printf("%d\n", *(ptr + i));
 }
-
+int a,b;
+a = 2;
+b = 3;
+printf("%d",a*b);
   // char greetings[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
   // printf("%s", greetings);
   // printf("\n%lu\n",sizeof(greetings));
